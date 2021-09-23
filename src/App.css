@@ -2,7 +2,7 @@
 
 html,
 body,
-#homepage {
+#home {
   background: #94ffcf;
   height: 100%;
   width: 100%;
@@ -12,4 +12,45 @@ body,
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   color: #00203fff;
   min-height: 100vh;
+}
+
+.h1 {
+  font-weight: 650;
+  font-size: 120px;
+  margin: 0px;
+  font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+}
+
+.h2 {
+  font-size: 60px;
+  margin: 0px;
+  font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+}
+
+.h3 {
+  font-size: 20px;
+  margin: 0%;
+}
+
+.h4 {
+  margin: 0%;
+}
+
+.h5 {
+  margin: 0%;
+}
+
+.paragraph {
+  font-size: 25px;
+  margin-top: 0px;
+  font-family: prestige-elite-std, monospace;
+}
+
+.p#intro {
+  font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  text-decoration: none;
+  color: #00203fff;
 }
