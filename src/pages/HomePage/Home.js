@@ -24,6 +24,8 @@ function Home() {
             2000,
             "Interpreter",
             2000,
+            "Intern Seeker",
+            2000,
           ]}
         />
       </h2>
