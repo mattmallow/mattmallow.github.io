@@ -15,7 +15,16 @@ function Home() {
         <Typical
           loop={Infinity}
           wrapper="b"
-          steps={["Software Developer", 2000, "Student", 2000, "Gamer", 2000]}
+          steps={[
+            "Software Developer",
+            2000,
+            "Student",
+            2000,
+            "Gamer",
+            2000,
+            "Interpreter",
+            2000,
+          ]}
         />
       </h2>
       <Link to="/cv">
