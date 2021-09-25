@@ -1,42 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Home.css";
 import Typical from "react-typical";
 
 function Home() {
   return (
     <div id="home-div">
-      <p className="paragraph one-second-animation" id="hi-there">
+      <p className="paragraph" id="hi-there">
         Hiya, I am
       </p>
-      <h1 className="h1 three-second-animation">Matthew Fan</h1>
-      <h2 className="h2 five-second-animation">
+      <h1 className="h1">Matthew Fan</h1>
+      <h2 className="h2">
         I am a{" "}
         <Typical
           loop={Infinity}
           wrapper="b"
           steps={[
             "Software Developer",
-            2000,
-            "Student",
-            2000,
+            3000,
+            "Data Engineer",
+            3000,
             "Gamer",
-            2000,
-            "Interpreter",
-            2000,
-            "Intern Seeker",
-            2000,
+            3000,
+            "Translator",
+            3000,
+            "Hiker",
+            3000,
           ]}
         />
       </h2>
-      <Link to="/cv">
-        <p className="paragraph seven-second-animation" id="intro">
-          I have experience in Python, React.JS, Java, SQL...
-        </p>
-      </Link>
-      <p className="nine-second-animation">
-        This website was being constructed with React.JS and hosted on Github
-        Pages
+      <p className="paragraph" id="intro">
+        I am a passionate Software Developer major student. Interst in back-end
+        development and data engineering.
+      </p>
+      <p className="paragraph">
+        Currently working on API development for a financial application.
       </p>
       <a href={`mailto:matthewenzo@icloud.com`}>
         <button className="button" id="contact-me">
