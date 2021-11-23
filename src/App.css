@@ -1,16 +1,21 @@
+:root {
+  --font: "Open Sans";
+  --back-ground-color: #343148ff;
+  --text-color: #d7c49eff;
+}
 /* Body Styling */
 
 html,
 body,
 #home {
-  background: #343148ff;
+  background: var(--back-ground-color);
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: "LEAGUE SPARTAN";
-  color: #d7c49eff;
+  font-family: var(--font);
+  color: var(--text-color);
   min-height: 100vh;
 }
 
@@ -18,13 +23,13 @@ body,
   font-weight: 650;
   font-size: 100px;
   margin: 0px;
-  font-family: "LEAGUE SPARTAN";
+  font-family: var(--font);
 }
 
 .h2 {
   font-size: 55px;
   margin: 0px;
-  font-family: "LEAGUE SPARTAN";
+  font-family: var(--font);
 }
 
 .h3 {
@@ -43,11 +48,11 @@ body,
 .paragraph {
   font-size: 25px;
   margin-top: 0px;
-  font-family: "LEAGUE SPARTAN";
+  font-family: var(--font);
 }
 
 .paragraph#intro {
-  font-family: "LEAGUE SPARTAN", system-ui, sans-serif;
+  font-family: var(--font);
   text-decoration: none;
 }
 
@@ -58,7 +63,7 @@ body,
   position: fixed;
   width: 100%;
   top: 0px;
-  background: #343148ff;
+  background: var(--back-ground-color);
   z-index: 1;
   min-width: 800px;
 }
